@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.name{
+  color :blue
+}
+
+
+button{
+  color: rgb(13, 0, 255);
+}
