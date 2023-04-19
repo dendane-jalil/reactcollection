@@ -5,7 +5,7 @@
 const [createdActivity, setGeneratedActivity] = useState('');
 
   const fetchActivity =  ()=>{
-    Axios.get('http://www.boredapi.com/api/activity/').then(
+    Axios.get('https://www.boredapi.com/api/activity/').then(
       (res) => { setGeneratedActivity(res.data.activity);}
     )
 
